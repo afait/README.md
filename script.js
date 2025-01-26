@@ -15,3 +15,16 @@ var isAvailable = true; // A boolean value indicating this product is available
 console.log("Product Name", productName, typeof productName); // Log the Product Name as a string
 console.log("Product Price", productPrice, typeof productPrice); // Log the Product Price as a const
 console.log("isActive", isActive, typeof isActive); // Log the Product as isActive True
+
+// Tast 3 - Financial Transactions
+let accountBalance = 100; // Make the initial account balance equal 100
+console.log("Initial Balance: $", accountBalance); // Log 100 as the initial balance
+
+accountBalance += 25; // Add 25 to the initial account balance
+console.log("Balance after deposit: $", accountBalance) // Log Balance of account after deposit
+accountBalance -= 50; // subtract 50 from the account balance
+console.log("Balance after withdrawal: $", accountBalance) // Log Balance of account after withdrawal
+accountBalance *= 1.1; // Multiply by 1.1 to add 10 percent to the accountBalance
+console.log("Balance after interest: $", accountBalance) // Log Balance after interest is added
+accountBalance /= 2; // Divide by 2 to halve the accountBalance
+console.log("Balance after divide: $", accountBalance) // Log Balance of the account after divide
