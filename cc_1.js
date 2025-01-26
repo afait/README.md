@@ -38,7 +38,7 @@ console.log(greeting); // [String: 'Hello there!']
 let isLoggedIn = true; //Customer is logged in
 console.log(isLoggedIn); // Output: true
 if (isLoggedIn) {
-    console.log("welcome in")
+    console.log("welcome in") // If customer is logged in, get the message "welcome in"
 } else {
-    console.log("access denied")
+    console.log("access denied") // If customer is not logged in, get the message "access denied"
 }
