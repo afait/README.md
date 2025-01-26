@@ -28,3 +28,8 @@ accountBalance *= 1.1; // Multiply by 1.1 to add 10 percent to the accountBalanc
 console.log("Balance after interest: $", accountBalance) // Log Balance after interest is added
 accountBalance /= 2; // Divide by 2 to halve the accountBalance
 console.log("Balance after divide: $", accountBalance) // Log Balance of the account after divide
+
+// Task 4 - Customer Messaging
+let customerName = "customer Name"; // customer name
+let greeting = new String("Hello there! " + customerName); // Greeting will now say Hello there! customerName
+console.log(greeting); // [String: 'Hello there!']
