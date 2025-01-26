@@ -33,3 +33,12 @@ console.log("Balance after divide: $", accountBalance) // Log Balance of the acc
 let customerName = "customer Name"; // customer name
 let greeting = new String("Hello there! " + customerName); // Greeting will now say Hello there! customerName
 console.log(greeting); // [String: 'Hello there!']
+
+// Task 5 - Access Control
+let isLoggedIn = true; //Customer is logged in
+console.log(isLoggedIn); // Output: true
+if (isLoggedIn) {
+    console.log("welcome in")
+} else {
+    console.log("access denied")
+}
